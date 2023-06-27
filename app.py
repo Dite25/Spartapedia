@@ -1,5 +1,5 @@
 from http import client
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, requests, jsonify
 from pymongo import MongoClient
 import requests
 from bs4 import BeautifulSoup
